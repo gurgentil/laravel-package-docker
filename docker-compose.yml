@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  package:
+    build: .
+    volumes:
+        - ./:/var/www/app
+    tty: true
